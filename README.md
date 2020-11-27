@@ -1,5 +1,6 @@
-# .NET 5 / C#9 Overview
-Hands-on overview of .NET 5 / C#9 features
+<center>
+  <img src="https://orly-appstore.herokuapp.com/generate?title=.NET%205%20%26%20C%23%209&top_text=Just%20the%20latest%20and%20greatest&author=Thomas%20Br%C3%BCggemann&image_code=6&theme=7&guide_text=A%20Hands-on%20Overview&guide_text_placement=bottom_right" />
+</center>
 
 - Property pattern (https://gist.github.com/richlander/e3c0031e226ee06481668867955b82de#use-the-property-pattern-to-replace-isnullorempty)
 - or/and-expressions (https://gist.github.com/richlander/e3c0031e226ee06481668867955b82de#simplify-checks-to-multiple-constant-values)
