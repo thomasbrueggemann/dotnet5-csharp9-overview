@@ -11,7 +11,7 @@
 
 /* WHAT
 
-No need to write boilerplate code to start a program
+No need to write boilerplate code to start a program.
 Before C#9 it looked like:
     
 using System;
@@ -26,12 +26,15 @@ namespace TopLevelPrograms
         }
     }
 }
+
+It also enables top-level async/await!
     
 */
 
 /* WHY
 
 Top level programs allow us to easily start writing code.
+Reduced boilerplate code.
 
 */
 
