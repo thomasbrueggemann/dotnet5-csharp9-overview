@@ -51,7 +51,6 @@ var delayedTask = new Task(() =>
 });
 
 delayedTask.Start();
-
 await delayedTask;
 
 Console.WriteLine("👋 Hello World!");

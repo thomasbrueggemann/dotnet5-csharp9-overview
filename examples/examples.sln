@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x-Records", "x-Records\x-Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-NewExpression", "b-NewExpression\b-NewExpression.csproj", "{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-PropertyPattern", "c-PropertyPattern\c-PropertyPattern.csproj", "{1C27445D-CB2F-4A22-B34F-4F0BAE4DA17B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C27445D-CB2F-4A22-B34F-4F0BAE4DA17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C27445D-CB2F-4A22-B34F-4F0BAE4DA17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C27445D-CB2F-4A22-B34F-4F0BAE4DA17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C27445D-CB2F-4A22-B34F-4F0BAE4DA17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
