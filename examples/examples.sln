@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a-TopLevelPrograms", "a-TopLevelPrograms\a-TopLevelPrograms.csproj", "{9A27A2CE-5FC1-446A-A7C4-20D622C0E648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-Records", "b-Records\b-Records.csproj", "{334C77B4-1A73-421A-B40D-B53973280C06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x-Records", "x-Records\x-Records.csproj", "{334C77B4-1A73-421A-B40D-B53973280C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-NewExpression", "b-NewExpression\b-NewExpression.csproj", "{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{334C77B4-1A73-421A-B40D-B53973280C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334C77B4-1A73-421A-B40D-B53973280C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334C77B4-1A73-421A-B40D-B53973280C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

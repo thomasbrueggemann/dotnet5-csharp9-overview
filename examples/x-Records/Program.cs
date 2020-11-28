@@ -8,18 +8,23 @@
 
 */
 
-#region What
-
-/*
+/* WHAT
  * Top level programs allow us to easily start writing code
  */
 
-#endregion
+/* WHY
 
-#region Why
-
-#endregion
+*/
 
 using System;
 
-Console.WriteLine();
+var container1 = new Container();
+
+var container2 = container1 with { Tons = 34 };
+
+public record Container
+{
+  public int Tons { get; init; }
+  public int Teu { get; init; }
+  public bool Reefer { get; init; }
+}
