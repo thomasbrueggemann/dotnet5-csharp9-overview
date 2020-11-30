@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>c_PropertyPattern</RootNamespace>
+        <RootNamespace>e_OrAndExpressions</RootNamespace>
     </PropertyGroup>
 
 </Project>
