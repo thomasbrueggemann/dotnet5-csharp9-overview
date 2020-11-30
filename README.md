@@ -17,5 +17,3 @@ e) Records (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#records)
 - Positional records (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#positional-records)
 
 f) Covariant returns (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/covariant-returns and https://anthonygiretti.com/2020/10/12/introducing-c-9-covariant-returns/ and https://daveabrock.com/2020/07/14/c-sharp-9-target-typing-covariants#covariant-returns)
-
-g) Static anonymous functions (https://anthonygiretti.com/2020/10/21/introducing-c-9-static-anonymous-functions/)

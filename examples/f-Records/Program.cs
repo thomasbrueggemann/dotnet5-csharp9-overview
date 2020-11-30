@@ -6,13 +6,9 @@
  | | \ \  __/ (_| (_) | | | (_| \__ \
  |_|  \_\___|\___\___/|_|  \__,_|___/
 
-*/
-
-/* WHAT
- * Top level programs allow us to easily start writing code
- */
-
-/* WHY
+"Besides all, do we know if records are supported by AutoFixture, 
+Serializers or any other nuget libraries we use. yet? 
+Does that require to update those packages?"
 
 */
 

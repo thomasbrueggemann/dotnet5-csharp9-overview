@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a-TopLevelPrograms", "a-TopLevelPrograms\a-TopLevelPrograms.csproj", "{9A27A2CE-5FC1-446A-A7C4-20D622C0E648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Records", "e-Records\e-Records.csproj", "{334C77B4-1A73-421A-B40D-B53973280C06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "f-Records", "f-Records\f-Records.csproj", "{334C77B4-1A73-421A-B40D-B53973280C06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "b-NewExpression", "b-NewExpression\b-NewExpression.csproj", "{40BD8F5C-D362-42DC-A1C8-F1BA931BDFB3}"
 EndProject
@@ -10,9 +10,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-PatternMatching", "c-Patt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d-InitOnlyProperties", "d-InitOnlyProperties\d-InitOnlyProperties.csproj", "{80C17BF7-1AEF-4EF2-9ADD-C3E29E7193D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "f-CovariantReturns", "f-CovariantReturns\f-CovariantReturns.csproj", "{50E9BB62-5C11-4F8B-960A-7ADEF074EDE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CovariantReturns", "e-CovariantReturns\e-CovariantReturns.csproj", "{50E9BB62-5C11-4F8B-960A-7ADEF074EDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "g-StaticAnonymousFunctions", "g-StaticAnonymousFunctions\g-StaticAnonymousFunctions.csproj", "{A47AA699-F91C-47CB-AB59-0F10DD284144}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "g-RecordsInTheWild", "g-RecordsInTheWild\g-RecordsInTheWild.csproj", "{1520622B-2C24-4830-A80E-DEA106DDB050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,9 +44,9 @@ Global
 		{50E9BB62-5C11-4F8B-960A-7ADEF074EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E9BB62-5C11-4F8B-960A-7ADEF074EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E9BB62-5C11-4F8B-960A-7ADEF074EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A47AA699-F91C-47CB-AB59-0F10DD284144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A47AA699-F91C-47CB-AB59-0F10DD284144}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A47AA699-F91C-47CB-AB59-0F10DD284144}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A47AA699-F91C-47CB-AB59-0F10DD284144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1520622B-2C24-4830-A80E-DEA106DDB050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1520622B-2C24-4830-A80E-DEA106DDB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1520622B-2C24-4830-A80E-DEA106DDB050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1520622B-2C24-4830-A80E-DEA106DDB050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
