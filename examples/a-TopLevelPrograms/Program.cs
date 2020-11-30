@@ -7,9 +7,6 @@
     |_|\___/| .__/  |______\___| \_/ \___|_| |_|   |_|  \___/ \__, |_|  \__,_|_| |_| |_|___/
             | |                                                __/ |                        
             |_|                                               |___/                         
- */
-
-/* WHAT
 
 No need to write boilerplate code to start a program.
 Before C#9 it looked like:
@@ -29,13 +26,6 @@ namespace TopLevelPrograms
 
 It also enables top-level async/await!
     
-*/
-
-/* WHY
-
-Top level programs allow us to easily start writing code.
-Reduced boilerplate code.
-
 */
 
 using System;

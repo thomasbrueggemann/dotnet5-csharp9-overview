@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace f_InitOnlyProperties
+namespace f_CovariantReturns
 {
     class Program
     {
