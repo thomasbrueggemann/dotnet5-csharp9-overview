@@ -1,5 +1,7 @@
-<p align="center">
-  <img src="https://orly-appstore.herokuapp.com/generate?title=.NET%205%20%26%20C%23%209&top_text=Just%20the%20latest%20and%20greatest&author=Thomas%20Br%C3%BCggemann&image_code=6&theme=7&guide_text=A%20Hands-on%20Overview&guide_text_placement=bottom_right" />
+# .NET 5 / C# 9
+## Hands-on Overview
+
+### Table of Contents
 
 |    | Topic                         | Link to example code           |
 |----|-------------------------------|--------------------------------|
@@ -11,5 +13,3 @@
 | f) | Introduction to Records       | [Program.cs](http://google.de) |
 | g) | Records in the wild           | [WeatherForecastController.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/g-RecordsInTheWild/Controllers/WeatherForecastController.cs) |
 | h) | Records interop               | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/h-RecordsInterop/Program.cs) |
-
-</p>
