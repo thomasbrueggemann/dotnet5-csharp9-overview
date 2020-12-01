@@ -10,5 +10,5 @@
 | d) | Init-only Properties          | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/d-InitOnlyProperties/Program.cs) |
 | e) | Covariant returns             | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/e-CovariantReturns/Program.cs) |
 | f) | Introduction to Records       | [Program.cs](http://google.de) |
-| g) | Records in the wild           | [Program.cs](http://google.de) |
-| h) | Records interop               | [Program.cs](http://google.de) |
+| g) | Records in the wild           | [WeatherForecastController.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/g-RecordsInTheWild/Controllers/WeatherForecastController.cs) |
+| h) | Records interop               | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/h-RecordsInterop/Program.cs) |
