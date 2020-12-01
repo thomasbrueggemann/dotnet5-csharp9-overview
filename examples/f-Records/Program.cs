@@ -13,6 +13,7 @@ Does that require to update those packages?"
 */
 
 using System;
+using System.Collections.Generic;
 
 var container1 = new Container();
 
@@ -23,4 +24,9 @@ public record Container
   public int Tons { get; init; }
   public int Teu { get; init; }
   public bool Reefer { get; init; }
+}
+
+public record Vessel
+{
+    public IReadOnlyCollection<Container> Containers { get; init; }
 }
