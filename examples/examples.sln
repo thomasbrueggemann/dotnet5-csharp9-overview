@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-CovariantReturns", "e-Cov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "g-RecordsInTheWild", "g-RecordsInTheWild\g-RecordsInTheWild.csproj", "{1520622B-2C24-4830-A80E-DEA106DDB050}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "h-RecordsInterop", "h-RecordsInterop\h-RecordsInterop.csproj", "{19141853-D9AB-47D9-82DE-0623DC87134F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{1520622B-2C24-4830-A80E-DEA106DDB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1520622B-2C24-4830-A80E-DEA106DDB050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1520622B-2C24-4830-A80E-DEA106DDB050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19141853-D9AB-47D9-82DE-0623DC87134F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19141853-D9AB-47D9-82DE-0623DC87134F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19141853-D9AB-47D9-82DE-0623DC87134F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19141853-D9AB-47D9-82DE-0623DC87134F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

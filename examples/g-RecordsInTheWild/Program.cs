@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace h_RecordsInTheWild
+namespace RecordsInTheWild
 {
     public class Program
     {

@@ -10,10 +10,10 @@ c) ✅ Pattern-matching enhancements (https://docs.microsoft.com/en-us/dotnet/cs
 
 d) ✅ Init-only properties (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#init-only-properties and https://daveabrock.com/2020/06/29/c-sharp-9-deep-dive-inits)
 
-e) Records (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#records AND https://www.thomasclaudiushuber.com/2020/09/01/c-9-0-records-work-with-immutable-data-classes/)
+e) Covariant returns (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/covariant-returns and https://anthonygiretti.com/2020/10/12/introducing-c-9-covariant-returns/ and https://daveabrock.com/2020/07/14/c-sharp-9-target-typing-covariants#covariant-returns)
 
-- With-expressions (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#records)
-- Value-based equality (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#value-based-equality)
-- Positional records (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#positional-records)
+f) ✅ Records (https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#records AND https://www.thomasclaudiushuber.com/2020/09/01/c-9-0-records-work-with-immutable-data-classes/)
 
-f) Covariant returns (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-9.0/covariant-returns and https://anthonygiretti.com/2020/10/12/introducing-c-9-covariant-returns/ and https://daveabrock.com/2020/07/14/c-sharp-9-target-typing-covariants#covariant-returns)
+g) ✅ Records in the wild
+
+h) ✅ Records interop

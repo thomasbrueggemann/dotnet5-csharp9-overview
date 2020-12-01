@@ -12,8 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace h_RecordsInTheWild
+namespace RecordsInTheWild
 {
+    using AutoMapper;
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -30,6 +32,11 @@ namespace h_RecordsInTheWild
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "h_RecordsInTheWild", Version = "v1"});
+            });
+
+            services.AddAutoMapper(new[]
+            {
+                typeof(MappingProfile)
             });
         }
 

@@ -31,9 +31,6 @@ Vessel vessel = new(container);
 DateTime datetime = new(2020, 12, 4);
 Console.WriteLine($"📆 {datetime}");
 
-
-
-
 // init an array of containers "the old way"
 var containers = new Container[] {
     new Container(123),
@@ -48,9 +45,6 @@ Container[] containers2 =
     new(456),
     new(789)
 };
-
-
-
 
 public class Container
 {
