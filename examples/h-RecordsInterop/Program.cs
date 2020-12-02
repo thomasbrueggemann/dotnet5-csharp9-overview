@@ -13,6 +13,7 @@ Let's explore how Records interoperate with existing libraries
 */
 
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using ProtoBuf;
@@ -25,6 +26,26 @@ var container = new Container
     Tons = 40,
     Reefer = false
 };
+
+// Can a record be combined with classes?
+
+// -> yes they can, but the generated .Equals method of the record will use the
+// .Equals() method of the sub-class of a record, which by default does a reference based
+// equality check. It has to manually be overloaded to do a value based comparison, just like the old days...
+
+var terminal = new Terminal // <- this is a class
+{
+    Code = "PLGDNDCT",
+    Name = "Gdansk Deepwater Container Terminal"
+};
+
+var port = new Port // <- this is a record
+{
+    Name = "Port of Gdansk",
+    Terminals = new[] { terminal }
+};
+
+Console.WriteLine(port);
 
 // Do they serialize?
 
@@ -73,3 +94,15 @@ public record ProtobufContainer(
     [property: ProtoMember(2)] int Teu,
     [property: ProtoMember(3)] bool Reefer
 );
+
+public record Port
+{
+    public string Name { get; init; }
+    public IReadOnlyCollection<Terminal> Terminals { get; init; }
+}
+
+public class Terminal
+{
+    public string Code { get; set; }
+    public string Name { get; set; }
+}

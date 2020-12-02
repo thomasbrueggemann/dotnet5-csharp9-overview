@@ -7,7 +7,9 @@
  |______|_| |_|_| |_|\__,_|_| |_|\___\___|\__,_| |_|   \__,_|\__|\__\___|_|  |_| |_|_|  |_|\__,_|\__\___|_| |_|_|_| |_|\__, |
                                                                                                                         __/ |
                                                                                                                        |___/
-C# 9 includes new pattern matching improvements:
+C# 9 includes new pattern matching improvements
+
+(We'll do a recap what Pattern matching is all about down below!)
 
 - Type patterns match a variable is a type
 - Parenthesized patterns enforce or emphasize the precedence of pattern combinations
@@ -16,8 +18,6 @@ C# 9 includes new pattern matching improvements:
 - "not" patterns require that a pattern doesn't match
 - Relational patterns require the input be less than, greater than, less than or equal, or greater than or equal to a given constant.
 - Property patterns
-
-(We'll do a recap what Pattern matching is all about down below!)
 
 */
 

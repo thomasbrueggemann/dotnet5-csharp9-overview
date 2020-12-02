@@ -1,16 +1,15 @@
 ﻿/*
-  _______            _                    _   _____                                         
- |__   __|          | |                  | | |  __ \                                        
-    | | ___  _ __   | |     _____   _____| | | |__) | __ ___   __ _ _ __ __ _ _ __ ___  ___ 
+  _______            _                    _   _____
+ |__   __|          | |                  | | |  __ \
+    | | ___  _ __   | |     _____   _____| | | |__) | __ ___   __ _ _ __ __ _ _ __ ___  ___
     | |/ _ \| '_ \  | |    / _ \ \ / / _ \ | |  ___/ '__/ _ \ / _` | '__/ _` | '_ ` _ \/ __|
     | | (_) | |_) | | |___|  __/\ V /  __/ | | |   | | | (_) | (_| | | | (_| | | | | | \__ \
     |_|\___/| .__/  |______\___| \_/ \___|_| |_|   |_|  \___/ \__, |_|  \__,_|_| |_| |_|___/
-            | |                                                __/ |                        
-            |_|                                               |___/                         
+            | |                                                __/ |
+            |_|                                               |___/
 
-No need to write boilerplate code to start a program.
 Before C#9 it looked like:
-    
+
 using System;
 
 namespace TopLevelPrograms
@@ -24,8 +23,9 @@ namespace TopLevelPrograms
     }
 }
 
+Now: no need to write boilerplate code to start a program.
 It also enables top-level async/await!
-    
+
 */
 
 using System;
@@ -35,8 +35,8 @@ using System.Threading.Tasks;
 Console.WriteLine("🏁 Let's go!");
 
 var delayedTask = new Task(() =>
-{ 
-    Thread.Sleep(5000); 
+{
+    Thread.Sleep(5000);
     Console.WriteLine("😴 I am a bit delayed...");
 });
 
