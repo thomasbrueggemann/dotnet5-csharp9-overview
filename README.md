@@ -8,7 +8,7 @@
 | new-Expression                | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/b-NewExpression/Program.cs) |
 | Pattern-matching enhancements | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/c-PatternMatching/Program.cs) |
 | Init-only Properties          | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/d-InitOnlyProperties/Program.cs) |
-| Covariant returns             | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/e-CovariantReturns/Program.cs) |
-| Introduction to Records       | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/f-Records/Program.cs) |
-| Records in the wild           | [WeatherForecastController.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/g-RecordsInTheWild/Controllers/WeatherForecastController.cs) |
-| Records interop               | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/h-RecordsInterop/Program.cs) |
+| Introduction to Records       | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/e-Records/Program.cs) |
+| Records in the wild           | [WeatherForecastController.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/f-RecordsInTheWild/Controllers/WeatherForecastController.cs) |
+| Records interop               | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/g-RecordsInterop/Program.cs) |
+| Covariant returns             | [Program.cs](https://github.com/thomasbrueggemann/dotnet5-csharp9-overview/blob/main/examples/h-CovariantReturns/Program.cs) |

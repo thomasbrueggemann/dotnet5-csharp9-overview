@@ -22,6 +22,8 @@ C# 9 includes new pattern matching improvements
 */
 
 using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 
 void WithoutPatternMatching(object shape)
 {
@@ -108,7 +110,7 @@ void RelationalPatterns(Circle circle)
     };
 }
 
-void PropertyPatterns(string hello, string[] greetings)
+void PropertyPatterns(string hello, List<string> greetings)
 {
     // old approach
     if (!string.IsNullOrEmpty(hello))
@@ -123,7 +125,6 @@ void PropertyPatterns(string hello, string[] greetings)
     }
 
     // for arrays:
-    greetings[0] = "Hello world";
 
     // old approach
     if (greetings != null && !string.IsNullOrEmpty(greetings[0]))

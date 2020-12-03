@@ -13,17 +13,14 @@
 - new expressions have always required a type to be specified
 - In C# 9.0 you can leave out the type if there’s a clear type that the expression is being assigned to
 
-At least in C&C we prefer to use `var` and use the actual type with the new expression,
-for easier readability at the beginning of the line:
-
-var container = Container();
-
 Where this new syntax might come in handy is:
-When you have a lot of repetition, such as in an array or object initializer:
+- when you have a lot of repetition, such as in an array or object initializer
+- return statements
 
 */
 
 using System;
+// ReSharper disable ArrangeObjectCreationWhenTypeEvident
 
 Container container = new(123);
 Vessel vessel = new(container);
@@ -39,7 +36,7 @@ var containers = new Container[] {
 };
 
 // init array of containers "the new way"
-Container[] containers2 =
+var containers2 = new Container[]
 {
     new(123),
     new(456),
@@ -57,5 +54,10 @@ public class Vessel
 {
     public Vessel(Container c)
     {
+    }
+
+    public Container GetContainer()
+    {
+        return new(40);
     }
 }
