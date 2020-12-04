@@ -26,7 +26,7 @@ Container container = new(123);
 Vessel vessel = new(container);
 
 DateTime datetime = new(2020, 12, 4);
-Console.WriteLine($"📆 {datetime}");
+Console.WriteLine(datetime);
 
 // init an array of containers "the old way"
 var containers = new Container[] {
